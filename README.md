@@ -12,3 +12,5 @@ Cloning:
 5. Double click on "install" to run the install batch file
 6. Once install is complete, navigate to "C:\US-R-PIIScrub\Apps" in Windows File Explorer
 7. Copy or move the items to the Desktop
+
+---This Repository is for the sharing of developmental projects. This project is not a finished product. This project is managed as a developmental project by the IT division of the Boone County Fire Protection District/Missouri Task Force 1, and is not endorsed by the Federal Emergency Management Agency (FEMA).---
