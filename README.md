@@ -6,7 +6,7 @@ Requirements:
 
 Cloning:
 1. Open miniconda3 from an admin account on your machine.
-2. Type "cd C:/" and hit enter. If this does not work, try "cd d/ C:/"
+2. Type "cd C:/" and hit enter. If this does not work, try "cd /d C:/"
 3. Type "conda install git -y" and hit enter
 4. Type "git clone https://github.com/rrhee-MOTF1/US-R-PIIScrub" and hit enter
 5. Navigate to "C:\US-R-PIIScrub" in Windows File Explorer
