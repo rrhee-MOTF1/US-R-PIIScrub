@@ -14,7 +14,7 @@ import cv2
 root = Tk()
 root.geometry("640x800")
 root.configure(background="#fccd12")
-root.title("BCFPD YOLOv8 IMAGE Blur")
+root.title("BCFPD YOLOv11 IMAGE Blur")
 
 entry1_var=StringVar(root)
 entry2_var=StringVar(root)
@@ -25,7 +25,7 @@ def pic_blur():
     print(torch.cuda.is_initialized())
     print(torch.cuda.is_available())
     print(torch.cuda.device_count())
-    model = YOLO(r"C:\US-R-PIIScrub\models\yolov8l-face.pt")
+    model = YOLO(r"C:\US-R-PIIScrub\models\yolov11m-face.pt")
 
     global files
     files = []
@@ -104,7 +104,7 @@ labelframein = Frame(frame, bg="#4c6dc2")
 labelframein.pack(padx=35, pady=35)
 
 titleFont = tkFont.Font(family="System", size=26)
-label = Label(labelframein, text = "YOLOv8 Image Blur (MOTF1)\nDEV BUILD 0.1", bg="#4c6dc2", padx=125, pady=25, font=titleFont)
+label = Label(labelframein, text = "YOLOv11 Image Blur (MOTF1)\nDEV BUILD 0.1", bg="#4c6dc2", padx=125, pady=25, font=titleFont)
 label.pack()
 
 spacerframe1 = Frame(root, bg="#38508c")
